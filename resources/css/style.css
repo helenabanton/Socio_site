@@ -1,6 +1,5 @@
-/* couleur : #a2c73b */
+/* couleur : #109290 #109290 11a29f*/
 
-/* dark : #8dae32 */
 
 /*-------------------------------------------*/
 
@@ -72,7 +71,7 @@ h1 {
 h1:after {
 	display: block;
 	height: 3px;
-	background-color: #a2c73b;
+	background-color: #109290;
 	content: "";
 	width: 300px;
 	margin: 0 auto;
@@ -86,8 +85,8 @@ h2 {
 	word-spacing: 2px;
 	letter-spacing: 1px;
 	margin-bottom: 60px;
-	border-bottom: 2px solid #a2c73b;
-	border-top: 2px solid #a2c73b;
+	border-bottom: 2px solid #109290;
+	border-top: 2px solid #109290;
 	padding: 20px 0;
 
 }
@@ -103,7 +102,7 @@ h3 {
 }
 
 h3:hover {
-	color: #8dae32;
+	color: #109290;
 }
 
 h4 {
@@ -142,7 +141,7 @@ a:visited {
 
 a:active,
 a:hover {
-	border-bottom: 2px solid #a2c73b;
+	border-bottom: 2px solid #13b1ae;
 }
 
 
@@ -171,7 +170,7 @@ ul li {
 /*-- icons --*/
 .icon-small{
     display:inline-block;
-    color: #8dae32;
+    color: #109290;
     font-size: 120%;
     vertical-align:text-bottom;
     padding-right: 10px;
@@ -180,7 +179,7 @@ ul li {
 .icon-big {
 	display: block;
 	margin: 0 40%;
-	color: #a2c73b;
+	color: #13b1ae;
 	font-size: 300%;
 	margin-bottom: 30px;
 }
@@ -197,7 +196,7 @@ ul li {
 }
 
 .icon-arrow {
-	color: #a2c73b;
+	color: #13b1ae;
 	font-size: 300%;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -239,17 +238,6 @@ ul li {
 	margin: 30px 10%;
 }
 
-/*--- tableau ---*/
-
-td{
-    border: 1px solid #a2c73b;
-}
-
-table{
-    border: none;
-    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
-}
-
 /*--- php ---*/
 
 .error {
@@ -271,22 +259,13 @@ table{
 /*-------------------------------------------*/
 
 footer {
-	background-image: url(img/Camouflage_GIS.png);
+	background :#ffffff;
 	padding-top:10px;
-}
-
-footer li {
-	float: left;
-	font-size: 70%;
 }
 
 footer p {
 	text-align: center;
 	font-size: 80%;
-}
-
-.language-links {
-	float: right;
 }
 
 .footer-nav li:first-child {
@@ -308,14 +287,6 @@ header {
 	z-index: 999;
 }
 
-.flags {
-    float: right;
-    display: block;
-}
-
-.flags li {
-    margin: 2px 25px 0 0;
-}
 
 /*-- main nav -- */
 
@@ -345,7 +316,7 @@ nav {
 
 
 .main-nav li:hover {
-	background:url(img/Camouflage_GIS.png);
+	background:#dedede;
 }
 
 .main-nav a:active, .main-nav a:hover{
@@ -356,7 +327,7 @@ nav {
 	position: absolute;
 	margin-top: 40px;
 	margin-left: -20px;
-	background-color: rgba(162, 199, 59);
+	background-color: #11a29f;
 	z-index: 900;
 }
 
@@ -365,6 +336,14 @@ nav {
 	padding: 20px;
 	font-size: 100%;
 	margin: 0;
+}
+
+.main-nav li ul li a{
+	color: #fff;
+}
+
+.main-nav li ul li:hover a{
+	color: #333;
 }
 
 .main-nav li ul li:hover{
@@ -383,7 +362,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	height: 60px;
-	background-image: url(img/Camouflage_GIS.png);
+	background: #dedede;
 	z-index: 999;
 }
 
@@ -464,12 +443,12 @@ nav {
 	width: 70%;
 	margin: 40px 15%;
 	padding: 40px;
-	border: 2px solid #8dae32;	
+	border: 2px solid #109290;	
 }
 
 .info-box {
     display: block;
-	border: 2px solid #8dae32;
+	border: 2px solid #109290;
 	width: 40%;
 	margin: 20px 30%;
 	padding: 20px;
@@ -480,7 +459,7 @@ nav {
 }
 
 .info-box:hover {
-	border-color:#a2c73b; 
+	border-color:#13b1ae; 
 }
 
 .info-box a{
@@ -636,616 +615,9 @@ textarea {
 }
 
 .date-list p {
-	color: #a2c73b;
+	color: #13b1ae;
 	font-weight: 400;
 	display: inline-block;
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* VALEURS */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-valeurs {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0.72))),url(img/valeurs_bandeau.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.72)),url(img/valeurs_bandeau.jpg); 
-}
-
-.row-family b{
-	color: #a2c73b;
-}
-
-.section-family img {
-	width: 40%;
-	margin: 0 30%;
-}
-
-.section-valeurs img {
-	width: 30%;
-	height: 60%;
-	margin: 0 35% 30px 35%;	
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* MISSION */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-.liste-promesse h3{
-    width:60%;
-    margin:0 20% 2% 20%;
-}
-
-.liste-promesse img{
-    height: 80px;
-    width: auto;
-    display:inline-block;
-}
-
-
-.liste-promesse p{
-    display: inline-block;
-    font-size: 115%;
-    padding-bottom: 1.5%;
-    vertical-align:bottom;
-}
-
-.liste-promesse-point{
-    padding-bottom: 3%;
-    margin-left: 25%;
-}
-
-.diagramme-mission img{
-    width: 80%;
-	margin: 0 10%;
-}
-
-.bandeau-mission{
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(219, 219, 219, 0.46)),to(rgba(219, 219, 219, 0.46))),url(img/mission_bandeau.jpg);
-    background-image: linear-gradient(rgba(219, 219, 219, 0.46),rgba(219, 219, 219, 0.46)),url(img/mission_bandeau.jpg);
-}
-
-.bandeau-mission h1{
-    color: #fff;
-}
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* PRIX ET DISTINCTIONS */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-prix {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.3))),url(img/prix_bandeau.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)),url(img/prix_bandeau.jpg);
-    background-position: center;
-}
-
-.img-awards {
-	width: 20%;
-	height: auto;
-	margin: 0 40% 25px 40%;
-}
-
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* PRESENCE DANS LE MONDE */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-world {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.3))),url(img/world_bandeau.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)),url(img/world_bandeau.jpg); 
-}
-
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* DEVELOPPEMENT PROJET */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-projet {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 255, 255, 0.5))),url(img/projet_bandeau.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),url(img/projet_bandeau.jpg); 
-}
-
-.bandeau-projet h1 {
-    color: #fff;
-}
-
-.indication-developpement p{
-    font-size: 110%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* progress bar */
-.progressbar {
-	counter-reset: step;
-    margin-left: 5%;
-}
-
-.progressbar li{
-	float: left;
-	width: 16%;
-	position: relative;
-	text-align:center;
-	cursor: pointer;
-}
-
-.progressbar li:before {
-	content: counter(step);
-	counter-increment: step;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	border: 2px solid #666;
-	display: block;
-	text-align: center;
-	margin: 0 auto 10px auto;
-	border-radius: 50%;
-	background-color: #f6f6f6;
-	z-index: 2;
-}
-
-.progressbar li:after {
-	content: '';
-	position: absolute;
-	width: 95%;
-	height: 3px;
-	background-color: #666;
-	top: 15px;
-	left: -55%;
-	z-index:1;
-}
-
-.progressbar li:first-child:after {
-	content: none;
-}
-
-.progressbar li.active {
-	color: #a2c73b;
-	-webkit-transition: color 0.5s ease;
-	transition: color 0.5s ease;
-}
-
-
-.progressbar li.active h3 {
-	color: #a2c73b;
-	-webkit-transition: color 0.5s ease;
-	transition: color 0.5s ease;
-}
-
-.progressbar li.active:before {
-	border-color: #a2c73b;
-    background-color: #fff;
-	-webkit-transition: border-color 0.5s ease, background-color 0.5s ease;
-	transition: border-color 0.5s ease, background-color 0.5s ease;
-}
-
-
-.progressbar li.active h3 {
-	color: #a2c73b;
-	-webkit-transition: color 0.5s ease;
-	transition: color 0.5s ease;
-}
-
-.progressbar li.active:before {
-	border-color: #a2c73b;
-	-webkit-transition: border-color 0.5s ease;
-	transition: border-color 0.5s ease;
-}
-
-
-.progressbar li.active:after {
-	background-color: #a2c73b;
-	-webkit-transition: background-color 0.5s ease;
-	transition: background-color 0.5s ease;
-}
-
-.stages-text {
-	width:90%;
-	height: 250px;
-	margin: 0 auto;
-	padding : 30px 40px;
-    background-color: #fff;
-	border: 1px solid #8dae32;
-}
-
-
-.stages-text h3 {
-	display:none;
-}
-
-.stages-text p {
-	display: none;
-}
-
-
-
-.stages-text p{
-	display: none;
-}
-
-.stages-text p:first-of-type{
-	display: block;
-}
-
-
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* ENERGIE EOLIENNE PAGE */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-
-.bandeau-eolienne{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url(img/eolienne_bandeau.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/eolienne_bandeau.jpg);
-}
-
-
-.description-eo-sol{
-    display: inline-block;
-}
-
-.description-eo-sol p{
-    text-align: left;
-    color: #a2c73b;
-}
-
-.description-eo-sol h3{
-    text-align: left;
-}
-
-.energie-eo-sol ul{
-    margin-bottom: 3%;
-}
-
-.energie-eo-sol ul li{
-    margin-bottom: 0.5%;
-    margin-top: 0.5%;
-}
-
-.image-data{
-    display: inline-block;
-}
-
-.image-data img{
-    height: 700px;
-    width: auto;
-}
-
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* ENERGIE SOLAIRE PAGE */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-solaire{
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))),url(img/solaire_bandeau.jpg);
-     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/solaire_bandeau.jpg);
-}
-
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* CDV */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-cdv {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.8))),url(img/cdv_bandeau.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8)),url(img/cdv_bandeau.jpg);
-}
-
-.section-cdv img{
-	width: 70%;
-	height: auto;
-	margin: 50px 15%;
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* PPA */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-ppa {
-	background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))),url(img/ppa_bandeau.jpg);
-	background-image:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/ppa_bandeau.jpg);
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* PROPRIETAIRES*/
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-proprio {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))),url(img/proprio_bandeau.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/proprio_bandeau.jpg);
-}
-
-
-.btn-contact:link, .btn-contact:visited{
-	text-align: center;
-	display: inline-block;
-	margin: 30px 35%;
-	border: 2px solid #a2c73b;
-	color: #a2c73b;
-    padding : 10px 30px;
-    border-radius: 200px;
-	-webkit-transition: border 0.2s, background-color 0.2s, color 0.2s;
-	transition: border 0.2s, background-color 0.2s, color 0.2s;
-}
-
-
-.btn-contact:active, .btn-contact:hover{
-	border: 2px solid #8dae32;
-	color: #fff;
-    background-color: #8dae32;
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* MUNICIPALITE */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-muni {
-	background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.49)),to(rgba(255, 255, 255, 0.5))),url(img/municipalite_bandeau.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.49),rgba(255, 255, 255, 0.5)),url(img/municipalite_bandeau.jpg);
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* OBJECTIFS FRANCE ET OCCITANIE */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-fr {
-	background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.4)),to(rgba(255, 255, 255, 0.6))),url(img/france_bandeau.jpeg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.6)),url(img/france_bandeau.jpeg);
-}
-
-.section-objectif img {
-	width: 60%;
-	height: auto;
-	margin: 40px 20%;
-}
-
-
-
-
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* REFERENCES PROJET */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-
-.bandeau-reference-projet{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.56),rgba(255, 255, 255, 0.56)),url(img/references-projet_bandeau.jpg);
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.36)),to(rgba(255, 255, 255, 0.36))),url(img/references-projet_bandeau.jpg);
-}
-
-
-.bandeau-reference-projet p {
-	font-size: 80%;
-	position: absolute;
-	right: 10px;
-	top: 90%;
-	color: #333;
-}
-
-.texte-indication p{
-    text-align: center;
-}
-
-.texte-indication{
-    margin-bottom: -25px;
-}
-
-.tableau-projets table{
-    display: inline-block;
-}
-
-/*-- Solar projects --*/
-
-
-.projects-showcase {
-	width: 100%;
-}
-
-.projects-showcase li {
-	display: block;
-	float: left;
-	width: 25%;
-	margin: 0;
-}
-
-.project-photo {
-	position: relative;
-	width: 100%;
-	margin: 0;
-	overflow: hidden;
-	background-color: #000;
-	padding: 0;
-}
-
-.project-photo img {
-	width: 100%;
-	height: auto;
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	-webkit-transition: .5s ease;
-	transition: .5s ease;
-	background-color: #333;
-}
-
-.project-photo:hover .overlay {
-	opacity: 0.97;
-}
-
-.project-photo p {
-	color: #fff;
-	font-size: 85%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* REFERENCES PROJET */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-news{
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.53)),to(rgba(255, 255, 255, 0.53))),url(img/news_bandeau.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.53),rgba(255, 255, 255, 0.53)),url(img/news_bandeau.jpg);
-}
-
-.medias p{
-    text-align: center;
-    margin-bottom: 45px;
-}
-
-.media-text{
-    border-bottom: 1px solid #a2c73b;
-}
-
-.lien-medias{
-    text-align: center;
-}
-
-.lien-medias li{
-    font-size: 120%;
-    padding: 30px 0;
-}
-
-.ligne-liste-media{
-    border-bottom: 1px solid #a2c73b;
-    padding-top: 18px;
-}
-
-.ligne-liste-media:first-of-type{
-
-}
-
-.icon-media{
-    display: inline-block;
-    color: #a2c73b;
-    font-size: 500%;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-transition: color 0.2s, -webkit-transform 0.2s;
-    transition: color 0.2s, -webkit-transform 0.2s;
-    transition: color 0.2s, transform 0.2s;
-    transition: color 0.2s, transform 0.2s, -webkit-transform 0.2s;
-}
-
-.icon-media:hover{
-    color: #8dae32;
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
-}
-
-.small-screen-liens{
-    display: none
-}
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* CONTACT */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.bandeau-contact {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.7)),to(rgba(255, 255, 255, 0.3))),url(img/contact_bandeau.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(img/contact_bandeau.jpg);
 }
 
 
