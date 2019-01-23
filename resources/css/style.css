@@ -150,6 +150,12 @@ a:hover {
 	border-bottom: 2px solid #13b1ae;
 }
 
+p a:active, p a:hover{
+	border-bottom: 3px solid transparent;
+}
+
+
+
 ol {
 	list-style: circle;
 }
@@ -243,9 +249,16 @@ ul li {
 }
 
 .section-image img {
-	width: 80%;
+	width: 70%;
 	height: auto;
-	margin: 30px 10%;
+	margin: 30px 15% 0 15%;
+}
+
+.legende {
+	font-size: 60%;
+	text-align: center;
+	color: #383838;
+	margin-bottom: 3%;
 }
 
 
