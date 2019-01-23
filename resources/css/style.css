@@ -515,13 +515,11 @@ nav {
 
 
 
-/*-------------------------------------------*/
+
 
 /*-------------------------------------------*/
 
 /* POLITIQUE */
-
-/*-------------------------------------------*/
 
 /*-------------------------------------------*/
 
@@ -530,56 +528,26 @@ nav {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/politique_bandeau.jpg); 
 }
 
+/*-------------------------------------------*/
+
+/* CONSOMMATEURS */
+
+/*-------------------------------------------*/
+
+.bandeau-consommateurs {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.4))),url(img/consommateurs_bandeau.jpeg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/consommateurs_bandeau.jpeg); 
+}
 
 
 /*-------------------------------------------*/
 
-/*-------------------------------------------*/
-
-/* MOBILE */
+/* CONSTRUCTEURS */
 
 /*-------------------------------------------*/
 
-/*-------------------------------------------*/
-
-.section-mobile {
-	height: 800px;
-	background-color: #f4f4f4;
-	display: none;
+.bandeau-constructeurs {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.4))),url(img/constructeurs_bandeau.jpeg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)),url(img/constructeurs_bandeau.jpeg); 
 }
-
-.section-mobile li {
-	display: block;
-	font-weight: 400;
-	padding: 10px;
-	margin: 5px;
-}
-
-.section-mobile a:hover{
-	border-bottom: 2px solid transparent;
-	font-weight: 400;
-}
-
-.section-mobile li ul li{
-	font-weight: 300;
-	padding: 3px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
