@@ -551,3 +551,14 @@ nav {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)),url(img/constructeurs_bandeau.jpeg); 
 }
 
+/*-------------------------------------------*/
+
+/* ASSOCIATIONS */
+
+/*-------------------------------------------*/
+
+.bandeau-associations {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.4))),url(img/assos_bandeau.jpeg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)),url(img/assos_bandeau.jpeg); 
+}
+
