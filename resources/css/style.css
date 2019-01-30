@@ -322,7 +322,7 @@ nav {
 
 .main-nav li{
 	display: inline-block;
-	font-size: 85%;
+	font-size: 75%;
 	padding: 40px 20px;
 	margin-left: 20px;
 }
@@ -384,7 +384,7 @@ nav {
 }
 
 .sticky .main-nav li{
-	font-size: 90%;
+	font-size: 75%;
 	padding: 20px 20px;
 }
 
@@ -395,6 +395,7 @@ nav {
 
 .sticky .main-nav li ul{
 	margin-top: 20px;
+	font-size: 130%;
 }
 
 /*-- mobile nav -- */
