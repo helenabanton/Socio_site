@@ -580,3 +580,15 @@ nav {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)),url(img/population_bandeau.jpeg); 
 }
 
+/*-------------------------------------------*/
+
+/* ENGAGEMENT POLITIQUES */
+
+/*-------------------------------------------*/
+
+.bandeau-engagement {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.4))),url(img/engagement_bandeau.jpeg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)),url(img/engagement_bandeau.jpeg); 
+}
+
+
